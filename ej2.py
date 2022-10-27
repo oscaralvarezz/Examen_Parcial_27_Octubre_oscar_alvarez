@@ -57,4 +57,9 @@ print(centinela(lista, 145))
 if 145 not in lista:
     print(-1)
 
-    
+
+
+
+if __name__ == "__name__":
+    import doctest
+    doctest.testmod()
