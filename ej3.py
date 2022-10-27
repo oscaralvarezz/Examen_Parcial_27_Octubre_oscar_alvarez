@@ -11,7 +11,5 @@ class Alumno:
             resultado = "El alumno ha aprobado con un: {}".format(self.nota)
             return resultado
 
-
-pepe = Alumno("pepe",8)
-
-print(pepe)
+carlos = Alumno("carlos",9)
+print(carlos)
