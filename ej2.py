@@ -37,7 +37,7 @@ def merge(izquierda,derecha):
         lista_mezclada += derecha
     return lista_mezclada
 
-lista = [18, 50, 210, 80, 333, 70, 30]
+lista = [18, 50, 210, 80, 145, 333, 70, 30]
 print(mergesort(lista))
 
 
@@ -56,3 +56,5 @@ def centinela(lista, buscado):
 print(centinela(lista, 145))
 if 145 not in lista:
     print(-1)
+
+    
