@@ -17,7 +17,4 @@ juan = Alumno("juan", 8)
 sara = Alumno("sara", 3)
 oscar = Alumno("oscar",10)
 
-print(pepe.__str__())
-print(juan.__str__())
-print(sara.__str__())
-print(oscar.__str__())
+print(pepe.calificacion())
