@@ -1,3 +1,4 @@
+
 class Alumno:
     def init(self, nombre, nota):
         self.nombre = nombre
@@ -11,5 +12,12 @@ class Alumno:
             resultado = "El alumno ha aprobado con un: {}".format(self.nota)
             return resultado
 
-carlos = Alumno("carlos",9)
-print(carlos)
+pepe = Alumno("pepe", 6)
+juan = Alumno("juan", 8)
+sara = Alumno("sara", 3)
+oscar = Alumno("oscar",10)
+
+print(pepe.__str__())
+print(juan.__str__())
+print(sara.__str__())
+print(oscar.__str__())
