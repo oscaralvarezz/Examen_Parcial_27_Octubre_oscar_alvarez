@@ -11,5 +11,7 @@ class Alumno:
             resultado = "El alumno ha aprobado con un: {}".format(self.nota)
             return resultado
 
-calificacion = Alumno
-print(calificacion("oscar", 9))
+
+pepe = Alumno("pepe",8)
+
+print(pepe)
